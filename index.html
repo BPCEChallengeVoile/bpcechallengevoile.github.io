@@ -1,0 +1,2175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>BPCE Challenge voile 2017</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      /*-webkit-filter: grayscale(90%);
+      /*filter: grayscale(90%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .bg-2 {font-style: normal;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">BPCE CHALENGE VOILE 2017</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#program">PROGRAMME</a></li>
+        <li><a href="#info">INFO PRATIQUES</a></li>
+        <li><a href="#equipages">EQUIPAGES</a></li>
+          <li><a href="#sponsor">PARTENAIRES</a></li>
+        <!--<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+		-->
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<nav class="navbar navbar-default navbar-fixed-left">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">BPCE CHALENGE VOILE 2017</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#program">PROGRAMME</a></li>
+        <li><a href="#info">INFO PRATIQUES</a></li>
+        <li><a href="#equipages">EQUIPAGES</a></li>
+          <li><a href="#sponsor">PARTENAIRES</a></li>
+        <!--<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+		-->
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./Pictures/BPCEChallenge2016-13.jpg" alt="Marseille" width="1200" height="700">
+      <div class="carousel-caption">
+        <h3>MARSEILLE</h3>
+        <p>22 - 25 SEPTEMBRE 2017</p>
+      </div>      
+    </div>
+  
+    <div class="item">
+      <img src="./Pictures/BPCEChallenge2016-8.jpg" alt="Challenge" width="1200" height="700">
+      <div class="carousel-caption">
+        <h3>LE CHALLENGE</h3>
+        <p>3 JOURS DE COURSE SUR GRAND SUPRISE</p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="./Pictures/BPCEChallenge2016-5.jpg" alt="Teams" width="1200" height="700">
+      <div class="carousel-caption">
+        <h3>TEAM BUILDING</h3>
+        <p></p>
+      </div>      
+    </div>
+      
+    <div class="item">
+      <img src="./Pictures/BPCEChallenge2016-7.jpg" alt="Exceptional Sails" width="1200" height="700">
+      <div class="carousel-caption"> 
+        <h3>PARTENARIATS</h3>
+        <p></p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="./Pictures/bandeau-2016-optimise.jpg" alt="Exceptional Sails" width="1200" height="700">
+      <div class="carousel-caption"> 
+        <h3>SPONSORS</h3>
+        <p></p>
+      </div>      
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+  </div>
+</div>
+<div id="program" class="bg-1">
+  <div class="container">
+    <div class="text-center">
+      <h3>PROGRAMME</h3>
+      <p><em>Cette année encore, nous travaillerons avec Team Winds et leur flotte de Grand Surprise. Les régates seront organisées par la Société Nautique de Marseille qui nous prépare de beaux parcours en rade de Marseille et dans ses environs.</p>
+      <br>
+
+      <div class="row text-left ">
+        <div class="row bg-2">
+          <div class="col-sm-6">
+            <ul>
+              <p><b>Vendredi 23 Septembre:</b></p>
+                  <li>9h: Accueil au <a href=https://www.google.fr/maps/place/Soci%C3%A9t%C3%A9+Nautique+de+Marseille/@43.2932204,5.369806,19.5z/data=!4m8!1m2!2m1!1sclub+la+nautique+marseille!3m4!1s0x0:0x4f5b9e93ea67026b!8m2!3d43.293367!4d5.3698599>club La Nautique</a></li>
+                  <li>11h: Récupération des bateaux sur <a href= >l’ile du Frioul</a> <br>et Entrainement en rade de Marseille</li>
+                  <li>17h: Retour au port</li>
+                  <li>Apéro d’accueil et diner d’équipages</li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <p><b>Samedi 23 Septembre:</b></p>
+                <li>9h: Briefing skipper</li>
+                <li>10h: Parcours bananes</li>
+                <li>19h: Diner et soirée des Sponsors</li>
+            </ul>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="row text-left">
+        <div class="row bg-2">
+          <div class="col-sm-6">
+            <ul>
+              <p><b>Dimanche 24 Septembre:</b></p>
+                  <li>9h: Briefing skipper</li>
+                  <li>10h: Parcours côtiers</li>
+                  <li>12h30: Mouillage dans le parc national des calanques</li>
+                  <li>17h: Retour au port</li>
+                  <li>19h: Diner et soirée Gala</li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <p><b>Lundi 25 Septembre:</b></p>
+                <li>8h30: Briefing skipper</li>
+                <li>9h30: Parcours bananes</li>
+                <li>15h: Remise des prix à La Nautique</li>
+                <li>16h: Depart des equipages</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+</div>
+
+<div id="info" class="container text-center">
+  <h3>INFO PRATIQUES</h3>
+  <div class="row text-center">
+    <div class="row">
+      <div class="col-sm-4">
+          <p class="text-center"><strong>Hotel et Restaurants</strong></p>
+          <br>
+          <a href="#demo" data-toggle="collapse">
+              <img src="./Pictures/Maps-Marseille.png" class="img-circle person" alt="Random Name" width="255" height="255">
+          </a>
+          <div id="demo" class="collapse">
+              <ul>
+                <li><a href=https://www.residence-canebiere.com/ />Résidence La Canebière, centre Leo Lagrange</a> - <a href=https://www.google.com.hk/maps/place/R%C3%A9sidence+La+Canebi%C3%A8re/@43.297177,5.380173,15z/data=!4m5!3m4!1s0x0:0x403a86d6eecb08e5!8m2!3d43.297177!4d5.380173>Plan d'acces</a></li>
+                <li><a href=http://www.hotelvertigo.fr/>Hotel Vertigo Vieux-Port</a> - <a href=https://www.google.com.hk/maps/place/Vertigo+Hostel+Vieux-Port/@43.3016219,5.370475,15z/data=!4m8!1m2!2m1!1shotel+vertigo!3m4!1s0x0:0xcb4edddad8581fc2!8m2!3d43.2913554!4d5.371837>Plan d'acces</a></li>
+                <li>Restaurants a venir prochainement.</li>
+              </ul>
+          </div>
+      </div>
+      <div class="col-sm-4">
+          <p class="text-center"><strong>Team Winds</strong></p><br>
+          <a href="#demo2" data-toggle="collapse">
+              <img src="./Pictures/tw-circle.jpg" class="img-circle person" alt="Random Name2" width="255" height="255">
+          </a>
+          <div id="demo2" class="collapse">
+              <ul>
+                <li>Une flotte monotype de 22 Grand surprises</li>
+                <li>Longueur 9.54m </li>
+                <li>Version Spi symétrique</li>
+                <li>7 équipiers par voilier </li>
+                <li>Plus d'information et des videos d'entrainement sur le site de <a href="http://www.teamwinds.com/" title="Team Winds">Team Winds</a></li>
+              </ul>
+            </div>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>La Nautique</strong></p><br>
+        <a href="#demo3" data-toggle="collapse">
+            <img src="./Pictures/snm-flag.png" class="img-circle person" alt="Random Name3" width="255" height="255">
+        </a>
+        <div id="demo3" class="collapse">
+          <ul>
+            <li>La regate est organisee en partenariat avec <a href=http://www.lanautique.com/>la Societe Nautique de Marseille</a>.</li> 
+            <li>Situe en plein cœur du Vieux Port le club existe depuis 130 ans.</li>
+            <li>Documents de course : a venir prochainement</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (TOUR Section) -->
+<div id="equipages" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">EQUIPAGES</h3>
+    <p class="text-center">22 equipages ont confirmes leur participation cette annee</p>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/1609G015.jpg" alt="NatixisAPAC" width="400" height="300">
+          <p><strong>Natixis Asia Pacific</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamNatixisAPAC">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisLuxembourg.jpg" alt="NatixisLuxembourg" width="400" height="300">
+          <p><strong>Natixis Finance &amp; Risques</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamNatixisFR">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF1.jpg" alt="CEIDF1" width="400" height="300">
+          <p><strong>CEBFC</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCEBFC">View Team</button>
+        </div>
+      </div>
+     </div>
+    <!-- new row 2 -->
+	 <div class = "row text-center">
+	  <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF2.jpg" alt="CEIDF2" width="400" height="300">
+          <p><strong>CEPAL</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCEPAL">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisPurple.jpg" alt="NatixisPurple" width="400" height="300">
+          <p><strong>BP1818</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamBP1818">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisUS.jpg" alt="NatixisUS" width="400" height="300">
+          <p><strong>CEIDF 1</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCEIDF1">View Team</button>
+        </div>
+      </div>
+    </div>
+    <!-- new row 3-->
+	 <div class = "row text-center">
+	  <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF2.jpg" alt="CEIDF2" width="400" height="300">
+          <p><strong>CEIDF 2</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCEIDF2">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisPurple.jpg" alt="NatixisPurple" width="400" height="300">
+          <p><strong>I-BP</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamIBP">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisUS.jpg" alt="NatixisUS" width="400" height="300">
+          <p><strong>BPO</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamBPO">View Team</button>
+        </div>
+      </div>
+    </div>
+    <!-- new row 4-->
+	 <div class = "row text-center">
+	  <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF2.jpg" alt="CEIDF2" width="400" height="300">
+          <p><strong>Natixis Global Market</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamGlobalMarket">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisPurple.jpg" alt="NatixisPurple" width="400" height="300">
+          <p><strong>CELR</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCELR">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisUS.jpg" alt="NatixisUS" width="400" height="300">
+          <p><strong>CEBPL 1</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCEBPL1">View Team</button>
+        </div>
+      </div>
+    </div>
+    <!-- new row 5-->
+	 <div class = "row text-center">
+	  <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF2.jpg" alt="CEIDF2" width="400" height="300">
+          <p><strong>CEBPL 2</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCEBPL2">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisPurple.jpg" alt="NatixisPurple" width="400" height="300">
+          <p><strong>IT-CE</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamITCE">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisUS.jpg" alt="NatixisUS" width="400" height="300">
+          <p><strong>CEMP</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCEMP">View Team</button>
+        </div>
+      </div>
+    </div>
+    <!-- new row 6 -->
+	 <div class = "row text-center">
+	  <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF2.jpg" alt="CEIDF2" width="400" height="300">
+          <p><strong>BPCE01</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamBPCE01">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisPurple.jpg" alt="NatixisPurple" width="400" height="300">
+          <p><strong>BPCE CEN</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamBPCECEN">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisUS.jpg" alt="NatixisUS" width="400" height="300">
+          <p><strong>Natixis EMEA</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamEMEA">View Team</button>
+        </div>
+      </div>
+    </div>
+    <!-- new row 7-->
+	 <div class = "row text-center">
+	  <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF2.jpg" alt="CEIDF2" width="400" height="300">
+          <p><strong>BPCE-IT</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamBPCEIT">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisPurple.jpg" alt="NatixisPurple" width="400" height="300">
+          <p><strong>CENFE</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCENFE">View Team</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/NatixisUS.jpg" alt="NatixisUS" width="400" height="300">
+          <p><strong>NGAM</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamNGAM">View Team</button>
+        </div>
+      </div>
+    </div>
+    <!-- new row 8-->
+    <div class = "row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./Pictures/CEIDF2.jpg" alt="CEIDF2" width="400" height="300">
+          <p><strong>CECAZ</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#TeamCECAZ">View Team</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+</div>
+
+<div class="modal fade" id="TeamNatixisAPAC" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>Natixis Asia Pacific</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Guillaume LEMENAGER</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Charles DURBAN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Viet HU THUC</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Trinh NGUYEN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Alex PERRAUD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Samuel PLAGNARD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Olivier POIRIEUX</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamNatixisFR" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>Natixis Finance &amp; Risques</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Jean-Jacques DECLERCK</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Philippe JEANNE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean-Marc RUTILLET</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Gérard DELOGE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Régis BOURGES</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>TBD TBD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>TBD TBD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCEBFC" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CEBFC</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Jérémy ROCHET</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean Luc JOMAIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Yves MONTFORT</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Patrick CHAMOUTON</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Nathalie JAFFLIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Alexandra LOUIS</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Stéphane POMPIDOU</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCEPAL" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CEPAL</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Christophe LHERITIER</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Gérard CESBRON</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Fabrice  MOUZARD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Michel PAUTOU</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean Marc SOLELHAC</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Didier RIMBAUD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>TBD TBD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamBP1818" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>BP 1818</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Jean-Luc Renard</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Laurent  Chapalain</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Lorène Misset</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Sophie Giraud Marchan</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Arnaud Tissier</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Isabelle Gourmelon</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Stéphane Mossion</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCEIDF1" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CEIDF-1</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Nicolas MOUSSAUD</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Anne MOUSSAUD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Laurent MOLINAS</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Nathalie COCQ</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Dany DELINDE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Pascale MARYANKOWSKI</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Hélène TARRISSE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCEIDF2" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CEIDF 2</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Jean-Gilles BOUCHET</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Nicolas MAITRE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Laurence FINE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Marie-Claude MERLIAUD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Emmanuel BRUYELLE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Didier GRUSZINSKI</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Christine CARLO</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamIBP" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>I-BP</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Daniel COLLETTE</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Sylvaine QUILY</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Stéphane BOU</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Christophe LE RESTE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Stéphane ENGUEHARD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jérôme FABRE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Benoît SEILLER </strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Michel RICARD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamBPO" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>BPO</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Eric GUICHAOUA</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>David CHEDMAIL</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Thomas MERCIER</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Hugues ARRIAT</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Stéphane PIEDEVACHE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Arnaud GUILLEMIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Samuel DAVY</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamGlobalMarket" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>Natixis Global Market</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Florent LAROCHE-JOUBERT</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Laurent FRANCOIS</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean-François ROBIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Frederic DALIBARD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Tanguy DECHELETTE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jérôme TRICOT</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Natacha PAVLOVIC</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCELR" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CELR</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>GERARD GALET</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>LAURENT POTART</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>DANIEL BALLESTER</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>MICHEL LLUENGO</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>ERIC LELOUP</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>CLAUDE PEREZ</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>MYRIAM GARRIC</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCEBPL1" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CEBPL 1</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>José LE VAILLANT</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Loig DUSSAUD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Olivier BOUREAU</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Gerald  MOLZ</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Gwenael  CHOPLIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Gweltaz SAILLOUR</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean Christophe LINARD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCEBPL2" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>Natixis CEBPL 2</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>François BARONNET</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>David  LEROUX</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Geoffroy CASTERA</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Joachim KROTOFF</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Karine FIEDLER</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Fanny HANVIC</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Emmanuelle  NEDELLEC</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamITCE" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>IT-CE</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Bastien PILLEZ</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jerome GESTIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Stéphanie EVEILLARD </strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>François VERMELLE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Christophe MACREZ</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Emmanuelle ESTRADE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Patrice FAVENNEC</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCECAZ" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CECAZ</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>fabien diebold</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>robert pascalone</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>andré galanzi</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>emmanuel crave</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>sébastien casalini</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>olivier deshors</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>mickaël marajo</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCEMP" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CEMP</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>CHRISTOPHE BERNARDINATTI</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>LAURENT CAVANTOU</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>PATRICK  JENNAT</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>PHILIPPE MARTINEZ</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>SOPHIE DELAVAULT</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>FREDERIC BERNARD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>TBD TBD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="TeamBPCE01" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>BPCE 01</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Cyril VIGNET</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Cyril BONNET</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Frédérique MILLAT</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Fabrice MENDY</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Morgan LE BOURHIS</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Olivier DUPOUY</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Quentin JAMMES</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamBPCECEN" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>BPCE CEN</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Thierry LACAZE</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Cécile FODOR</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Anne Laure DUBOURG</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Aude PREVET</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Bertrand LELIEVRE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Patrick SAUVAGE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Yannick SIMON</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamEMEA" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>EMEA</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Guido Pescione</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Alessandro Massarelli</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Alessandro Bergamo Andreis</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Pierre Henri Denain</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Christian Le Hir </strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>TBD TBD</strong></p>
+
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>TBD TBD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamBPCEIT" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>BPCE-IT</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Stéphane BOURLIER</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Geneviève BOURLIER</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Arnaud CORNET</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Pascal FAVIER</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean-Luc MOUSSU</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean-Dominique PIERRET</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Stéphane TRITZ</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Cédric WECKER</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamCENFE" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>CENFE</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>daniel zelnio</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>jena pierre wexteen</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>justine bekaert</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>aude monsterlet</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>ludovic trefcon</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>jean marc guelton</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>alexandre duval</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="TeamNGAM" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4>NGAM</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+                <p><strong>Christian FLEUROT</strong></p>
+                <p><strong>Skipper</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Joelle HENNEQUIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jaafar BZIOUI</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Jean-Marc PERRIN</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Thibaud DE VITRY</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>Christelle DESTORS-LEPOUTRE</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./Pictures/head.jpg" alt="Head" width="400" height="300">
+              <p><strong>TBD TBD</strong></p>
+              <p><strong>Equipier</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Site made by Cashburn <a href="http://calderashburn.github.io" data-toggle="tooltip"</a></p> 
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
